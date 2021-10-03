@@ -44,7 +44,9 @@ cv::Mat getMat(HWND handlerWindow) {
     return mat;
  }
 
-//MSPaintApp
+//chrome not working because idk, mb it is broken, mb need to set tittle or class like window chrome, not like title browser
+// Paint - MSPaintApp 
+// cuphead - UnityWndClass
 int main() {
     HWND handlerChrome = FindWindowEx(NULL, NULL, "UnityWndClass", NULL);
     std::cout << handlerChrome << std::endl;
